@@ -28,11 +28,11 @@ add.addEventListener("click", function () {
 
       task.value = "";
 
-      checkButton.addEventListener("click",function(){
+      checkButton.addEventListener("click", function () {
          text.style.textDecoration = "line-through";
       })
 
-      deleteButton.addEventListener("click",function(){
+      deleteButton.addEventListener("click", function () {
          newEle.remove();
       })
 
